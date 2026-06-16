@@ -5,6 +5,14 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
+      script: [
+        {
+          src: "https://loader.pretasystems.com/?d=furniture-shop-one-gold.vercel.app",
+          async: true,
+          "data-api": "https://app.pretasystems.com/api",
+          "data-debug": "true",
+        },
+      ],
     },
   },
   imports: {
