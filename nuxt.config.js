@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       viewport: "width=device-width, initial-scale=1",
       script: [
         {
-          src: "https://yash-loader-worker.pushkarnagwekar.workers.dev/?d=furniture-shop-one-gold.vercel.app",
+          src: "https://audiance-loader-worker.pushkarnagwekar.workers.dev/?d=furniture-shop-one-gold.vercel.app",
           async: true,
           "data-api": "https://app.pretasystems.com/api",
           "data-debug": "true",
